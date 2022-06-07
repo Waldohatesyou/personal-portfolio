@@ -1,11 +1,18 @@
+import Helmet from 'react-helmet';
 import './App.css';
+import Navbar from './components/Navbar';
+import NavbarIcons from './components/NavbarIcons';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline text-blue-100">
-      Hello world!
-    </h1>
+      <Helmet bodyAttributes={{class: "bg-body text-white font-poppins"}}>
+      
+
+      </Helmet>
+      
+    <NavbarIcons></NavbarIcons>
+    
     </div>
   );
 }

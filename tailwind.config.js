@@ -15,7 +15,8 @@ module.exports = {
       input: "#2A2A35",
       white: colors.white,
       text: "#1F1F1F",
-      header: "#22222b"
+      header: "#22222b",
+      button: "#f25c54"
       }
     },
     fontFamily: {

@@ -1,0 +1,24 @@
+.gradient-hello{
+    background-image: linear-gradient(to right, #F49C2A, #F7B764, #ffba08, #D35100, #f25c54, #F49C2A);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    
+    background-size: 300%;
+    background-position: -100%;  
+    
+    animation: animatedText 15s infinite alternate-reverse;
+  }
+  
+  @keyframes animatedText{
+    to{
+      background-position: 100%; 
+    }
+  }
+
+.n-button {
+    border-radius: 50%;
+background: #ffffff;
+box-shadow:  10px 10px 23px #b8b8b8,
+             -10px -10px 23px #ffffff;
+}

@@ -7,7 +7,7 @@
     background-size: 300%;
     background-position: -100%;  
     
-    animation: animatedText 12s infinite alternate-reverse;
+    animation: animatedText 9s infinite alternate-reverse;
   }
   
   @keyframes animatedText{

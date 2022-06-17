@@ -77,9 +77,9 @@ export default class Hero extends Component {
         </Animated> 
         {/*Neumorphic icons*/}
         <div className='flex justify-center space-x-10 mt-10 '>
-            <FontAwesomeIcon icon={faGithub} className='nm-flat-white-sm text-4xl rounded-full p-5 max-w-xs active:nm-inset-white-sm' />
-            <FontAwesomeIcon icon={faLinkedin} className='nm-flat-white-sm text-4xl rounded-full p-5 max-w-xs active:nm-inset-white-sm' />
-            <FontAwesomeIcon icon={faEnvelope} className='nm-flat-white-sm text-4xl rounded-full p-5 max-w-xs active:nm-inset-white-sm' />
+            <a target="_blank" href="https://github.com/Waldohatesyou"><FontAwesomeIcon icon={faGithub} className='nm-flat-white-sm text-4xl rounded-full p-5 max-w-xs active:nm-inset-white-sm' /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/yusufnissar/"><FontAwesomeIcon icon={faLinkedin} className='nm-flat-white-sm text-4xl rounded-full p-5 max-w-xs active:nm-inset-white-sm' /></a>
+            <a target="_blank" href="mailto:yusufnissar8@gmail.com"><FontAwesomeIcon icon={faEnvelope} className='nm-flat-white-sm text-4xl rounded-full p-5 max-w-xs active:nm-inset-white-sm' /></a>
         </div>
         {/*<div className='nm-flat-button-sm px-24 py-4 mt-6 rounded-full text-lg text-white active:nm-inset-button-sm'>View my work!</div>*/}
         </div>

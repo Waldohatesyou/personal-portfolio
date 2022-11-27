@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3598909.css",
+    "main.js": "/static/js/main.e392e99c.js",
+    "static/media/bird.JPG": "/static/media/bird.d9e3f8615337ece1cc37.JPG",
+    "static/media/2022resume.pdf": "/static/media/2022resume.6c8b3bff2e342377c816.pdf",
+    "index.html": "/index.html",
+    "main.d3598909.css.map": "/static/css/main.d3598909.css.map",
+    "main.e392e99c.js.map": "/static/js/main.e392e99c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3598909.css",
+    "static/js/main.e392e99c.js"
+  ]
+}

@@ -18,14 +18,14 @@ function NavbarIcons() {
       >
         Yusuf.nissar
       </Link>
-      <div className="justify-end hidden md:flex w-full">
+      <div className="justify-end flex w-full">
         {/* Page tabs */}
         <div className="space-x-12 py-1 child-hover:text-secondary child:duration-150">
           <Link to="/">Home</Link>
           {/* <Link to="/about">About</Link> */}
           {/* <Link to="/projects">My projects</Link> */}
           <a href={resume} download="Yusuf Nissar Resume">
-            My Resume
+            Resume
           </a>
           <Link to="/contact">Contact</Link>
           {/* <button className='overline decoration-theme decoration-2 underline-offset-4'><Link to='/resume'>Download resume</Link></button> */}
@@ -38,11 +38,11 @@ function NavbarIcons() {
             </div>
         */}
       </div>
-      <div className="md:hidden">Hamburger</div>
-      <FontAwesomeIcon
+      {/* <div className="md:hidden">Hamburger</div> */}
+      {/* <FontAwesomeIcon
         icon={faBars}
         className="md:hidden text-white text-3xl"
-      />
+      /> */}
     </div>
   );
 }

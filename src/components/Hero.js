@@ -72,7 +72,7 @@ export default class Hero extends Component {
             animationInDuration={2000}
             isVisible={true}
           >
-            <p className="text-9xl font-bold mt-20 pt-20 pb-4 gradient-hello-blue ">
+            <p className="text-7xl sm:text-8xl md:text-[8.5rem] font-bold mt-20 pt-20 pb-4 gradient-hello-blue ">
               {this.state.hello}
             </p>
           </Animated>
@@ -83,7 +83,7 @@ export default class Hero extends Component {
             animationInDelay={1050}
             isVisible={true}
           >
-            <p className="text-center mt-8 max-w-lg">
+            <p className="text-center mt-8 max-w-lg text-md sm:text-lg">
               My name is <b className="text-secondary">Yusuf</b>, I'm a Computer
               Science and Business Student from the{" "}
               <b className="text-secondary">University of Western Ontario.</b>
